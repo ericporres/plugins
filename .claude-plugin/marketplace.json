@@ -14,7 +14,7 @@
       "displayName": "GPT Prompt Builder",
       "source": "./plugins/gpt-prompt-builder",
       "description": "Builds copy-paste \"Reasoning Scaffold\" prompts for any task. Produces ready-to-run prompts with verification, privacy checks, and optional execution. Inspired by Section School, Ethan Mollick & Charles Duhigg.",
-      "version": "0.14.1",
+      "version": "0.14.2",
       "author": {
         "name": "Eric Porres",
         "email": "plugins@porres.com"

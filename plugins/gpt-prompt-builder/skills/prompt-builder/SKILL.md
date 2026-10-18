@@ -48,6 +48,7 @@ Quick Build returns only:
 - The Draft Prompt (copy‑paste block, below).
 - At most one material caveat: the assumption or risk most likely to make the prompt miss. When the Privacy/Safety Check triggers, it is the caveat. Omit the caveat if there is none.
 - One line: approve to run, request edits, or switch to Advanced Build.
+Nothing else in Quick Build: no explanation of why the prompt works, no tips, no tailoring suggestions.
 
 Advanced Build returns all seven parts below.
 

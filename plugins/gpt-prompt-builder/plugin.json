@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "gpt-prompt-builder",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "description": "Builds copy-paste \"Reasoning Scaffold\" prompts for any task. Produces ready-to-run prompts with verification, privacy checks, and optional execution. Inspired by Section School, Ethan Mollick & Charles Duhigg.",
   "author": {
     "name": "Eric Porres",
