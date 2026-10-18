@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "gpt-prompt-builder",
-  "version": "0.13.2",
+  "version": "0.13.3",
   "description": "Builds copy-paste \"Reasoning Scaffold\" prompts for any task. Produces ready-to-run prompts with verification, privacy checks, and optional execution. Inspired by Section School, Ethan Mollick & Charles Duhigg.",
   "author": {
     "name": "Eric Porres",
@@ -11,11 +11,18 @@
   "homepage": "https://porres.com/plugins/#gpt-prompt-builder",
   "repository": "https://github.com/ericporres/plugins/tree/main/plugins/gpt-prompt-builder",
   "license": "MIT",
-  "keywords": ["prompts", "prompt engineering", "productivity", "reasoning scaffold"],
+  "keywords": [
+    "prompts",
+    "prompt engineering",
+    "productivity",
+    "reasoning scaffold"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
-        "capabilities": ["skills"],
+        "capabilities": [
+          "skills"
+        ],
         "category": "Productivity",
         "composerIcon": "./assets/gpt-icon.png",
         "logo": "./assets/gpt-icon.png",
@@ -30,7 +37,8 @@
         "longDescription": "Builds copy-paste \"Reasoning Scaffold\" prompts for any task. Produces ready-to-run prompts with verification, privacy checks, and optional execution. Inspired by Section School, Ethan Mollick & Charles Duhigg.",
         "websiteURL": "https://porres.com/plugins/",
         "privacyPolicyURL": "https://porres.com/plugins/privacy/",
-        "termsOfServiceURL": "https://porres.com/plugins/terms/"
+        "termsOfServiceURL": "https://porres.com/plugins/terms/",
+        "supportURL": "https://porres.com/plugins/support/"
       }
     }
   }
