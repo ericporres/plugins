@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gpt-prompt-builder",
+  "version": "0.13.2",
+  "description": "Builds copy-paste \"Reasoning Scaffold\" prompts for any task. Produces ready-to-run prompts with verification, privacy checks, and optional execution. Inspired by Section School, Ethan Mollick & Charles Duhigg.",
+  "author": {
+    "name": "Eric Porres",
+    "email": "plugins@porres.com",
+    "url": "https://porres.com/plugins/"
+  },
+  "homepage": "https://porres.com/plugins/#gpt-prompt-builder",
+  "repository": "https://github.com/ericporres/plugins/tree/main/plugins/gpt-prompt-builder",
+  "license": "MIT",
+  "keywords": ["prompts", "prompt engineering", "productivity", "reasoning scaffold"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": ["skills"],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "logo": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "ASSISTANT: Create a reusable prompt to triage my inbox and draft replies in my voice.",
+          "CREATOR: Give me a prompt to outline and draft a 600-word blog post on [topic] in [brand voice].",
+          "STRATEGIST: Produce a prompt to compare 3 options against criteria and recommend one."
+        ],
+        "developerName": "Eric Porres",
+        "displayName": "GPT Prompt Builder",
+        "shortDescription": "Build better, reusable prompts",
+        "longDescription": "Builds copy-paste \"Reasoning Scaffold\" prompts for any task. Produces ready-to-run prompts with verification, privacy checks, and optional execution. Inspired by Section School, Ethan Mollick & Charles Duhigg.",
+        "websiteURL": "https://porres.com/plugins/",
+        "privacyPolicyURL": "https://porres.com/plugins/privacy/",
+        "termsOfServiceURL": "https://porres.com/plugins/terms/"
+      }
+    }
+  }
+}

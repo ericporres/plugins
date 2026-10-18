@@ -1,0 +1,5 @@
+interface:
+  default_prompt: 'ASSISTANT: Create a reusable prompt to triage my inbox and draft
+    replies in my voice.'
+  display_name: GPT Prompt Builder
+  short_description: Build better, reusable prompts
