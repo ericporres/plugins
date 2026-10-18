@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "trippin-the-chat-fantastic",
+  "version": "0.18.2",
+  "description": "Brainstorms 13 wild, impossible ideas in an \"open the portal\" state, then returns to sober analysis and picks the two that could actually work.",
+  "author": {
+    "name": "Eric Porres",
+    "email": "plugins@porres.com",
+    "url": "https://porres.com/plugins/"
+  },
+  "homepage": "https://porres.com/plugins/#trippin-the-chat-fantastic",
+  "repository": "https://github.com/ericporres/plugins/tree/main/plugins/trippin-the-chat-fantastic",
+  "license": "MIT",
+  "keywords": [
+    "brainstorming",
+    "creativity",
+    "ideation",
+    "lateral thinking"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Creativity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "logo": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "How can we roll back climate change?",
+          "How might we enable world peace?",
+          "What are the best ways to teach children to be responsible, curious adults?"
+        ],
+        "developerName": "Eric Porres",
+        "displayName": "Trippin' The Chat Fantastic",
+        "shortDescription": "Wild brainstorm, then two ideas that could work",
+        "longDescription": "Brainstorms 13 wild, impossible ideas in an \"open the portal\" state, then returns to sober analysis and picks the two that could actually work. Ask a question, get a sober answer, then say \"open the portal.\"",
+        "websiteURL": "https://porres.com/plugins/",
+        "privacyPolicyURL": "https://porres.com/plugins/privacy/",
+        "termsOfServiceURL": "https://porres.com/plugins/terms/",
+        "supportURL": "https://porres.com/plugins/support/"
+      }
+    }
+  }
+}

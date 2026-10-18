@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bodyweight-workout",
+  "version": "0.8.0",
+  "description": "Bodyweight-only workouts built around your goal, your time, and how recovered you are (HRV, sleep), with a motivational coach's tone.",
+  "author": {
+    "name": "Eric Porres",
+    "email": "plugins@porres.com",
+    "url": "https://porres.com/plugins/"
+  },
+  "homepage": "https://porres.com/plugins/#bodyweight-workout",
+  "repository": "https://github.com/ericporres/plugins/tree/main/plugins/bodyweight-workout",
+  "license": "MIT",
+  "keywords": [
+    "fitness",
+    "workout",
+    "bodyweight",
+    "HRV",
+    "training"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.jpg",
+        "logo": "./assets/gpt-icon.jpg",
+        "defaultPrompt": [
+          "Suggest a workout to boost endurance",
+          "High HRV day, what should I do?",
+          "I give you data, you give me workout"
+        ],
+        "developerName": "Eric Porres",
+        "displayName": "Body Weight Workout GPT",
+        "shortDescription": "Bodyweight workouts tuned to your recovery",
+        "longDescription": "Bodyweight-only workouts built around your goal, your time, and how recovered you are (HRV, sleep), with a motivational coach's tone.",
+        "websiteURL": "https://porres.com/plugins/",
+        "privacyPolicyURL": "https://porres.com/plugins/privacy/",
+        "termsOfServiceURL": "https://porres.com/plugins/terms/",
+        "supportURL": "https://porres.com/plugins/support/"
+      }
+    }
+  }
+}

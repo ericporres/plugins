@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Suggest a workout to boost endurance
+  display_name: Body Weight Workout GPT
+  short_description: Bodyweight workouts tuned to your recovery

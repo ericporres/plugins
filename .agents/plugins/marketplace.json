@@ -15,6 +15,30 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "trippin-the-chat-fantastic",
+      "source": {
+        "source": "local",
+        "path": "./plugins/trippin-the-chat-fantastic"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    },
+    {
+      "name": "bodyweight-workout",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bodyweight-workout"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Other"
     }
   ]
 }

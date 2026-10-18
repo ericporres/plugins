@@ -5,6 +5,8 @@ Plugins I build for my own work and publish for ChatGPT and Codex. Each lives in
 | Plugin | What it does | Type |
 |---|---|---|
 | [GPT Prompt Builder](plugins/gpt-prompt-builder/) | Builds copy-and-paste prompts with a reasoning scaffold, a verification step, and a privacy check | Skills only |
+| [Trippin' The Chat Fantastic](plugins/trippin-the-chat-fantastic/) | Brainstorms 13 wild ideas when you say "open the portal," then picks the two that could work | Skills only |
+| [Body Weight Workout GPT](plugins/bodyweight-workout/) | Bodyweight-only workouts matched to your goal, your time, and your recovery (HRV, sleep) | Skills only |
 
 ## Install
 
@@ -13,6 +15,8 @@ Plugins I build for my own work and publish for ChatGPT and Codex. Each lives in
 ```
 codex plugin marketplace add ericporres/plugins
 codex plugin add gpt-prompt-builder@porres-plugins
+codex plugin add trippin-the-chat-fantastic@porres-plugins
+codex plugin add bodyweight-workout@porres-plugins
 ```
 
 `codex plugin marketplace upgrade porres-plugins` pulls new versions.
