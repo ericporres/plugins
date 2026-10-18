@@ -8,6 +8,15 @@ It started as a custom GPT. This is the same instruction set, packaged as a plug
 
 ## Install
 
+**Claude Code**
+
+```
+claude plugin marketplace add ericporres/plugins
+claude plugin install gpt-prompt-builder@porres-plugins
+```
+
+Then call it as `/gpt-prompt-builder:prompt-builder`, or just ask; Claude loads it when the request fits. **Claude Desktop:** add the marketplace `ericporres/plugins` in plugin settings and install from there.
+
 **Codex CLI**
 
 ```
@@ -15,9 +24,9 @@ codex plugin marketplace add ericporres/plugins
 codex plugin add gpt-prompt-builder@porres-plugins
 ```
 
-**ChatGPT desktop app:** clone this repository, then add the folder as a local marketplace. The app reads `.agents/plugins/marketplace.json` at the repository root.
+**ChatGPT desktop app:** clone the repository and add it as a local marketplace.
 
-**ZIP:** each [release](https://github.com/ericporres/plugins/releases) includes `gpt-prompt-builder.zip`, the plugin folder on its own, for hosts that take a ZIP upload.
+**ZIP:** each [release](https://github.com/ericporres/plugins/releases) includes the plugin folder as a ZIP, for hosts that take an upload.
 
 ## Try it
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bodyweight-workout",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Bodyweight-only workouts built around your goal, your time, and how recovered you are (HRV, sleep), with a motivational coach's tone.",
   "author": {
     "name": "Eric Porres",

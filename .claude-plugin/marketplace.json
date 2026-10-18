@@ -1,0 +1,77 @@
+{
+  "name": "porres-plugins",
+  "owner": {
+    "name": "Eric Porres",
+    "email": "plugins@porres.com",
+    "url": "https://porres.com/plugins/"
+  },
+  "metadata": {
+    "description": "Plugins by Eric Porres for Claude, ChatGPT, and Codex"
+  },
+  "plugins": [
+    {
+      "name": "gpt-prompt-builder",
+      "displayName": "GPT Prompt Builder",
+      "source": "./plugins/gpt-prompt-builder",
+      "description": "Builds copy-paste \"Reasoning Scaffold\" prompts for any task. Produces ready-to-run prompts with verification, privacy checks, and optional execution. Inspired by Section School, Ethan Mollick & Charles Duhigg.",
+      "version": "0.14.1",
+      "author": {
+        "name": "Eric Porres",
+        "email": "plugins@porres.com"
+      },
+      "homepage": "https://porres.com/plugins/#gpt-prompt-builder",
+      "repository": "https://github.com/ericporres/plugins",
+      "license": "MIT",
+      "keywords": [
+        "prompts",
+        "prompt engineering",
+        "productivity",
+        "reasoning scaffold"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "trippin-the-chat-fantastic",
+      "displayName": "Trippin' The Chat Fantastic",
+      "source": "./plugins/trippin-the-chat-fantastic",
+      "description": "Brainstorms 13 wild, impossible ideas in an \"open the portal\" state, then returns to sober analysis and picks the two that could actually work.",
+      "version": "0.18.3",
+      "author": {
+        "name": "Eric Porres",
+        "email": "plugins@porres.com"
+      },
+      "homepage": "https://porres.com/plugins/#trippin-the-chat-fantastic",
+      "repository": "https://github.com/ericporres/plugins",
+      "license": "MIT",
+      "keywords": [
+        "brainstorming",
+        "creativity",
+        "ideation",
+        "lateral thinking"
+      ],
+      "category": "creativity"
+    },
+    {
+      "name": "bodyweight-workout",
+      "displayName": "Body Weight Workout GPT",
+      "source": "./plugins/bodyweight-workout",
+      "description": "Bodyweight-only workouts built around your goal, your time, and how recovered you are (HRV, sleep), with a motivational coach's tone.",
+      "version": "0.8.1",
+      "author": {
+        "name": "Eric Porres",
+        "email": "plugins@porres.com"
+      },
+      "homepage": "https://porres.com/plugins/#bodyweight-workout",
+      "repository": "https://github.com/ericporres/plugins",
+      "license": "MIT",
+      "keywords": [
+        "fitness",
+        "workout",
+        "bodyweight",
+        "HRV",
+        "training"
+      ],
+      "category": "health"
+    }
+  ]
+}

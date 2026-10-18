@@ -6,10 +6,23 @@ Each workout has a warm-up, a main block with sets, reps or time, and rest, an e
 
 ## Install
 
+**Claude Code**
+
+```
+claude plugin marketplace add ericporres/plugins
+claude plugin install bodyweight-workout@porres-plugins
+```
+
+Then call it as `/bodyweight-workout:coach`, or just ask; Claude loads it when the request fits. **Claude Desktop:** add the marketplace `ericporres/plugins` in plugin settings and install from there.
+
+**Codex CLI**
+
 ```
 codex plugin marketplace add ericporres/plugins
 codex plugin add bodyweight-workout@porres-plugins
 ```
+
+**ChatGPT desktop app:** clone the repository and add it as a local marketplace.
 
 The ZIP for hosts that take an upload is attached to each [release](https://github.com/ericporres/plugins/releases).
 

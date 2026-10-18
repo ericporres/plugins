@@ -1,7 +1,7 @@
 ---
 description: Builds copy-and-paste prompts for any task. Use whenever this plugin is
   invoked or the user asks for a prompt, a reusable prompt, or help improving one.
-name: instructions
+name: prompt-builder
 ---
 
 Mission
