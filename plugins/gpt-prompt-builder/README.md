@@ -27,11 +27,11 @@ codex plugin add gpt-prompt-builder@porres-plugins
 
 ## What it returns
 
-1. A draft prompt in one copy-and-paste block: role and context, task and scope, inputs and assumptions, constraints, a reasoning scaffold, and the output format.
-2. A short test against your goal, with the gaps it found.
-3. A refined final prompt, plus variants when you ask for them.
+**Quick Build** (the default): the prompt in one copy-and-paste block, plus at most one caveat when an assumption could make it miss.
 
-It never asks the model to reveal private chain-of-thought. The prompts it writes ask for short reasoning summaries and labeled assumptions instead.
+**Advanced Build** (ask for it): the prompt, why it works, two test inputs, conservative and exploratory variants, and a pass/fail check against your constraints that names the one remaining uncertainty.
+
+Either way, it asks up to three questions when the request is too thin to build from, and it runs a prompt only after you approve it.
 
 ## What it touches
 
